@@ -1,0 +1,306 @@
+/* section first */
+.section1{
+    background-color: #1d7fb8;
+    color: white;
+
+}
+.topright1 i{
+        padding: 11px 0 11px 15px;
+        font-size: 18px;
+}
+.colom1{
+    display: flex;
+    float: right;
+}
+.colom1 p {
+    padding: 7px 10px 7px 10px;
+    font-size: 16px;
+}
+/* end */
+/* section second */
+.img1 {
+    width: 190px;
+}
+.navbar-toggler{
+    background: gray;
+    color: white;
+}
+.button1 {
+    
+    color: #1d7fb8;
+    height: 36px;
+    width: 135px;
+    margin: 11px 0 0 0;
+    border: 2px solid #1d7fb8;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    float: right;
+}
+.nav-link{
+    font-size: 13px;
+    color: black;
+}
+/* end */
+/* section third */
+.carousel-item img{
+    max-width: 100%;
+}
+.carousel-caption h5{
+    color:#1396e2;
+}
+.carousel-caption h1{
+    color: black;
+    font-size: 53px;
+}
+.carousel-caption p{
+    color: black;
+}
+.carousel-caption button{
+    font-size: 22px;
+    background: #1396e2;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 180px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+/* end */
+/* section fourth */
+.section2 {
+    background-image: url(../img/ap_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 50px 0;
+}
+.form input{
+    margin-bottom: 15px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.form textarea{
+    border: none;
+    background: none;
+    border-bottom: 1px solid gray;
+}
+.form button {
+    font-size: 16px;
+    padding: 5px 18px;
+    background: #1396e2;
+    border: none;
+    margin-top: 17px;
+    color: white;
+}
+/* end */
+/* section five */
+.colom2{
+    text-align: center;
+    padding: 20px 0;
+}
+.colom3 button{
+    border: 1px solid #1396e2;
+    padding: 4px 15px;
+    border-radius: 5px;
+}
+.colom3 h5{
+    padding:10px 0;
+}
+/* end */
+/* section six */
+
+ 
+.demo{ background: #f8f7f6; }
+#testimonial-slider{
+    padding: 50px 20px 35px 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 115px 19px rgba(236, 236, 236, 1);
+}
+.testimonial .description{
+    font-size: 14px;
+    color: #777;
+    line-height: 26px;
+    text-indent: 30px;
+    position: relative;
+}
+.testimonial .description:before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    left: -15px;
+}
+.testimonial .title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #363636;
+    text-transform: capitalize;
+    margin: 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    color: #363636;
+}
+.owl-buttons{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+}
+.owl-prev,
+.owl-next{
+    position: absolute;
+    left: 0;
+    transition: all 0.4s ease-in-out 0s;
+}
+.owl-next{
+    left: auto;
+    right: 0;
+}
+.owl-buttons .owl-prev:before,
+.owl-buttons .owl-next:before{
+    content: "\f104";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 60px;
+    font-weight: 900;
+    color: #cacaca;
+    line-height: 20px;
+    opacity: 0.8;
+}
+.owl-buttons .owl-next:before{
+    content: "\f105";
+}
+.owl-buttons .owl-prev:hover:before,
+.owl-buttons .owl-next:hover:before{
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    background: transparent;
+}
+.owl-theme .owl-controls{
+    margin-top: 40px;
+}
+.owl-theme .owl-controls .owl-page span{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #ccc;
+    background: url("../img/testimonials_1.png") no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease-in-out 0s;
+}
+.owl-theme .owl-controls .owl-page:nth-child(2) span{
+    background: url("../img/testimonials_1.png") no-repeat;
+    background-size: cover;
+}
+.owl-theme .owl-controls .owl-page:nth-child(3) span{
+    background: url("../img/testimonials_1.png") no-repeat;
+    background-size: cover;
+}
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    opacity: 0.5;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page.active:hover span{
+    border-color: #d133ff;
+    opacity: 1;
+}
+@media only screen and (max-width: 479px){
+    .owl-buttons{ bottom: 30%; }
+}
+
+
+
+
+
+
+
+.colom4{
+    text-align: center;
+    padding-top: 20px;
+}
+.colom4 img{
+    border-radius: 45px;
+}
+.colom4 p{
+    padding: 20px 0;
+}
+.colom4 h6{
+    color: #1396e2;
+}
+/* end */
+/* section seven */
+.section3{
+    padding: 15px 0 0 10px;
+    background-color: #222;
+    color: white;
+}
+.section3 h5{
+    font-weight: 700;
+}
+.colom5 p{
+    font-size: 14px;
+    padding: 15px 0;
+    color: #999;
+}
+.topright2{
+    display: flex;
+    padding-top: 10px;
+}
+.colom5 input{
+    border-radius: 20px;
+    padding: 0 0 0 22px;
+}
+.colom5 h4{
+    padding-top: 15px;
+    font-weight: 700;
+}
+.icon2 {
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.icon1 {
+    background: blue;
+    position: absolute;
+    right: 13px;
+    top: 98px;
+    padding: 12px 19px;
+    border-radius: 0 20px 20px 0;
+}
+.topright2 p{
+    color: #999;
+}
+.topright2 i{
+    color: #999;
+    margin: 5px 13px 0 0;
+}
+
+/* end */
+.section4{
+    background-color: #2e2e2e;
+    text-align: center;
+    padding: 10px 0;
+}
+.section4 p{
+    color: #999;
+}

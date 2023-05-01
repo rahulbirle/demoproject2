@@ -1,0 +1,100 @@
+@media(max-width: 1366px){}
+@media(max-width: 1280px){}
+@media(max-width: 1200px){}
+@media(max-width: 1199px){}
+@media(max-width: 1024px){}
+@media(max-width: 992px){}
+@media(max-width: 768px){} 
+@media(max-width: 767px){
+    /* section first */
+    .section1 {
+        background-color: #1a9fdf;
+        color: white;
+        text-align: center;
+    }
+    /* end */
+    /* section second */
+    .img1 {
+        width: auto;
+        max-width: 100%;
+    }
+    .row1{
+        text-align: center;
+        align-items: center;
+    }
+    .navbar-toggler i{
+        color: black;
+    }
+    .button1 {
+        color: #1d7fb8;
+        height: 27px;
+        width: 95px;
+        margin: 0;
+        border: 2px solid #1d7fb8;
+        border-radius: 20px;
+        font-size: 29px;
+        font-size: 11px;
+    }
+    .nav-item{
+        font-size: 10px;
+    }
+   
+    /* end */
+    /* section third */
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        top: 15px;
+        left: 15%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    .carousel-caption h5 {
+        color: #1396e2;
+        font-size: 9px;
+    }
+    .carousel-caption h1 {
+        color: black;
+        font-size: 16px;
+    }
+    .carousel-caption p {
+        color: black;
+        font-size: 5px;
+    }
+    .carousel-caption button {
+        font-size: 9px;
+        background: #1396e2;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 2px 5px;
+    }
+    /* end */
+    /* sewction forth */
+    /* end */
+    /* secion five */
+    .colom3 button {
+        border: 1px solid #1396e2;
+        padding: 4px 15px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    /* end */
+    /* section six */
+    /* end */
+    /* section seven */
+}
+@media(max-width: 630px){}
+@media(max-width: 560px){}
+@media(max-width: 479px){}
+@media(max-width: 375px){}
+@media(max-width: 360px){}
+@media(max-width: 320px){
+    
+}
+
+
+
